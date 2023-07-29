@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : ex-2.c
+ Name        : ex-7.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -13,16 +13,16 @@
 
 int main(void) {
 	setvbuf(stdout, NULL, _IONBF, 0);	//Eclipse bug
-	char x;
-	printf("Enter an alaphabet : ");
-	scanf("%c",&x);
-	if(x=='a'||x=='A'||x=='e'||x=='E'||x=='i'||x=='I'||x=='o'||x=='O'||x=='u'||x=='U'){
-		printf("%c is vowel",x);
-	}
-	else{
-		printf("%c is consonant",x);
-	}
+	int x,y,sum=1;
+	printf("Enter an integer : ");
+	scanf("%d",&x);
+	if (x>=0){
+		for (y=1;y<=x;y++){
+			sum*=y;
+		}
+		printf(" sum = %d",sum);
 
-
+	}
+	else printf("Error!!! Factorial of negative number dosen't exist.");
 	return 0;
 }

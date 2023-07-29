@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : ex-2.c
+ Name        : ex-3.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -13,16 +13,24 @@
 
 int main(void) {
 	setvbuf(stdout, NULL, _IONBF, 0);	//Eclipse bug
-	char x;
-	printf("Enter an alaphabet : ");
-	scanf("%c",&x);
-	if(x=='a'||x=='A'||x=='e'||x=='E'||x=='i'||x=='I'||x=='o'||x=='O'||x=='u'||x=='U'){
-		printf("%c is vowel",x);
+	float x,y,z;
+	printf("Enter three numbers :");
+	scanf("%f%f%f",&x,&y,&z);
+	if(x>y){
+		if(x>z){
+			printf("Largest number =%.2f",x);
+		}
+		else {
+			printf("Largest number =%.2f",z);
+		}
 	}
-	else{
-		printf("%c is consonant",x);
+	else {
+		if(y>z)
+			printf("Largest number =%.2f",y);
+
+		else
+			printf("Largest number =%.2f",z);
+
 	}
-
-
 	return 0;
 }

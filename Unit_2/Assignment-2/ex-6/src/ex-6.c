@@ -1,6 +1,6 @@
 /*
  ============================================================================
- Name        : ex-2.c
+ Name        : ex-6.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
@@ -13,16 +13,12 @@
 
 int main(void) {
 	setvbuf(stdout, NULL, _IONBF, 0);	//Eclipse bug
-	char x;
-	printf("Enter an alaphabet : ");
-	scanf("%c",&x);
-	if(x=='a'||x=='A'||x=='e'||x=='E'||x=='i'||x=='I'||x=='o'||x=='O'||x=='u'||x=='U'){
-		printf("%c is vowel",x);
+	int x,y,sum=0;
+	printf("Enter an integer : ");
+	scanf("%d",&x);
+	for (y=0;y<=x;y++){
+		sum+=y;
 	}
-	else{
-		printf("%c is consonant",x);
-	}
-
-
+	printf(" sum = %d",sum);
 	return 0;
 }
