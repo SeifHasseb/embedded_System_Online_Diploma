@@ -1,10 +1,10 @@
 /*
  ============================================================================
- Name        : ex-1.c
+ Name        : ex-4.c
  Author      : 
  Version     :
  Copyright   : Your copyright notice
- Description : Write C Program to Print a Sentence
+ Description : Write C Program to Multiply two Floating Point Numbers
  ============================================================================
  */
 
@@ -12,6 +12,11 @@
 #include <stdlib.h>
 
 int main(void) {
-	printf("C Programming");
+	setvbuf(stdout, NULL, _IONBF, 0);	//Eclipse bug
+	float x,y,product;
+	printf("Enter two numbers :");
+	scanf("%f%f",&x,&y);
+	product = x*y;
+	printf("Product: %f",product);
 	return 0;
 }
