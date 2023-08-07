@@ -18,7 +18,7 @@ int main(void) {
 	int i ,len;
 	char temp;
 
-	printf("Enter the strin : ");
+	printf("Enter the string : ");
 	scanf("%s",str);
 	len = strlen(str)-1;
 	for(i=0;i<=len;i++){
