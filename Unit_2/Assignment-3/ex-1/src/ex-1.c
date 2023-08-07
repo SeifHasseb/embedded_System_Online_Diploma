@@ -12,7 +12,7 @@
 
 int main(void) {
 	setvbuf(stdout, NULL, _IONBF, 0);	//Eclipse bug
-	char a,b;
+	int a,b;
 	float arr_1[2][2];
 	float arr_2[2][2];
 	float arr_sum[2][2];
