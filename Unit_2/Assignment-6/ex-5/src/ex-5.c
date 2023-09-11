@@ -12,6 +12,10 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 28bc01ec2fdf4009376a551f014852ec66ce88e1
 =======
 
 >>>>>>> 7a14721 (Pointers)
@@ -19,6 +23,11 @@
 >>>>>>> 4042ce6 (C-Basic)
 =======
 >>>>>>> fffbe5f (PointersUnit_2/Assignment-6)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 849fa638375fc6d58c5b3374188c0e61c7489095
+>>>>>>> 28bc01ec2fdf4009376a551f014852ec66ce88e1
 #include <stdio.h>
 struct Exmployee{
 	char name[10];
@@ -27,6 +36,10 @@ struct Exmployee{
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 28bc01ec2fdf4009376a551f014852ec66ce88e1
 =======
 
 >>>>>>> 7a14721 (Pointers)
@@ -34,6 +47,11 @@ struct Exmployee{
 >>>>>>> 4042ce6 (C-Basic)
 =======
 >>>>>>> fffbe5f (PointersUnit_2/Assignment-6)
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 849fa638375fc6d58c5b3374188c0e61c7489095
+>>>>>>> 28bc01ec2fdf4009376a551f014852ec66ce88e1
 int main(void) {
 	setvbuf(stdout, NULL, _IONBF, 0);	//Eclipse bug
 	struct Exmployee emp1 = {"Ahamed" ,31},emp2= {"Mohamed",32};
