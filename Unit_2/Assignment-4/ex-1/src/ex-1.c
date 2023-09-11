@@ -10,6 +10,7 @@
 
 #include <stdio.h>
 
+
 int prim_num(int x );
 
 int main(void) {
