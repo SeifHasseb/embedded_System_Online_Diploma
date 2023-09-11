@@ -9,11 +9,19 @@
 */
 #include <stdio.h>
 #include <stdlib.h>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7a14721 (Pointers)
 #include <stdio.h>
 struct Exmployee{
 	char name[10];
 	int id;
 };
+<<<<<<< HEAD
+=======
+
+>>>>>>> 7a14721 (Pointers)
 int main(void) {
 	setvbuf(stdout, NULL, _IONBF, 0);	//Eclipse bug
 	struct Exmployee emp1 = {"Ahamed" ,31},emp2= {"Mohamed",32};
